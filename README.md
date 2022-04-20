@@ -46,7 +46,7 @@ User password is encrypted by default algorithm (bcrypt) in PHP 5.5.0.
 #### - Searcher (by typing search key in input field)
 ![search](https://user-images.githubusercontent.com/67658221/164231190-f91fe55c-4cf7-4024-ba59-901cac5d36c4.png)
 
-#### - Group bill (by select option in dropdown list)
+#### - Grouping of bills (by select option in dropdown list)
 ![select](https://user-images.githubusercontent.com/67658221/164232844-68f209b8-5144-4da7-ae03-964d3362b9f9.png)
 
 #### - Sort (by click on filter icon in table head)
