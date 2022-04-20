@@ -6,6 +6,7 @@
 ### Used languages and tools:
  - HTML
  - PHP
+ - CSS
  - JavaScript
  - JQuery
  - AJAX
