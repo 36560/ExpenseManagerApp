@@ -31,7 +31,7 @@
 Elementary version of database contains table with bills, users and categories. 
 User password is encrypted by default algorithm (bcrypt) in PHP 5.5.0.
 
-* In 'Base' folder you may find example database in mysql format.
+* In 'Base' folder you may find example database in sql format.
 
 #### Database example view
 ![elementarBase](https://user-images.githubusercontent.com/67658221/164230883-cb928596-04fe-4b94-a80c-e30e4b5817ef.png)
