@@ -1,0 +1,197 @@
+/* BACKGROUND */
+.page-holder 
+{
+  min-height: 100vh;  
+} 
+.bg-cover 
+{
+    background-size: cover !important;
+}
+/* FADE BG */ 
+.fullscreen-container 
+{
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #378dc764;
+  z-index: 9999;
+}
+/* BUTTONS */
+#x 
+{
+  position: relative;
+  float: right;
+  background: #378dc7;
+  color: white;
+  top: -10px;
+  right: -10px;
+}
+.btnEdit, .btnAdd
+{
+  background-color: #378dc7;
+}
+.btnEdit:hover, .btnAdd:hover, #x:hover
+{
+  background-color: #378dc798;
+}
+.btnExpand
+{
+  color: white;
+  background-color: #378dc7;
+  width: 20%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.actionBtn
+{
+  background-color: #0e4a72;
+}
+.actionBtn:hover
+{
+  background-color: #0e4a727b;
+}
+.categoryLabel:hover
+{
+  cursor: pointer;
+}
+/* ADD FORM */
+#addForm
+{
+  display: none;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.599);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 30px;
+}
+.container-all
+{
+  margin-top: 30px;
+}
+/* EDIT FORM */
+#editForm
+{
+  top: 174px;
+  left: 50%;
+  margin-left:-272px;
+  display: none;
+  position: fixed;
+  height: 70%;
+  width: 90%;
+  right: 45%;
+  position: fixed;
+  overflow: auto;
+  max-width: 600px;
+  padding: 10px;
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+/* TABLE */
+.taskExist:hover 
+{
+  background-color: #378dc744;
+  background-image: url('https://img.icons8.com/color/344/edit--v1.png');
+  background-repeat: no-repeat;
+  background-size: 45px;
+  background-position: right;
+  padding: 10px;
+  background-origin: content-box;
+}
+table
+{
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.table-wrapper 
+{
+  max-height: 600px;
+  overflow: auto;
+  display: block;
+}
+.rowCh
+{
+  cursor: pointer;
+}
+tr
+{
+  background-color: #ffffff92;
+}
+.navbar-nav
+{
+  margin-top: 10px;
+}
+/* ICONS + IMG */
+.categoryBill
+{
+  width: 50px;
+  height: 50px;
+  margin: 4px;
+}
+.fa-filter
+{
+  cursor: pointer;
+}
+.input-icons i {
+  position: absolute;
+}
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.input-field
+{
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  outline: #378dc7;
+}
+.icon 
+{
+  padding: 15px;
+  color: #00376e;
+  min-width: 50px;
+  text-align: center;
+}
+.fa-medrt, .fa-calendar
+{
+  padding: 8px;
+  color: #378dc7;  
+}
+.fa-donate
+{
+  color: #00376e;
+}
+
+/* SELECT LIST */
+select:hover
+{
+  box-shadow: 0 0 10px 100px #378dc7 inset;
+}
+
+/* SEARCHER */
+.input-container 
+{
+  display: flex;
+  width: 100%;
+}
+
+.input-field:focus 
+{
+  border: 2px solid #378dc7;
+}
+.topnav-right 
+{
+  float: right;
+}
+
+/* CHARTS */
+#monthChart, #catChart
+{
+  padding: 2%;
+  margin-bottom: 4px;
+  background-color: rgba(255, 255, 255, 0.599);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 30%;
+  width: 30%;
+}
