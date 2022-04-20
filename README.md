@@ -3,6 +3,8 @@
 
 ## This web app is dedicated to managing your expenses/bills/incomes.
 
+---
+
 ### Used languages and tools:
  - HTML
  - PHP
@@ -13,6 +15,8 @@
  - Bootstrap v5
  - Plotly
 
+---
+
 ### Funcionality:
  - login and register screens
  - basic CRUD operations: create, read, update, delete
@@ -20,13 +24,17 @@
  - drawing a chart with summary amount of bills in each category and selected year
  - displaying data with selected category
  - search by date, name or value (without page refreshing)
- 
+
+---
+
 ### Structure of base
 Elementary version of database contains table with bills, users and categories. 
 User password is encrypted by default algorithm (bcrypt) in PHP 5.5.0.
 
-## Database example view
+#### Database example view
 ![elementarBase](https://user-images.githubusercontent.com/67658221/164230883-cb928596-04fe-4b94-a80c-e30e4b5817ef.png)
+
+---
 
 ### Application - screens 
 
