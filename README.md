@@ -1,7 +1,7 @@
 # ExpenseManagerApp
 
 
-## This web app is dedicated to managing your expenses/bills/incomes.
+## This web app is dedicated to managing your expenses/bills/incomes
 ### Link to webpage: https://todowebjs.000webhostapp.com
 
 ---
