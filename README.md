@@ -7,7 +7,7 @@
 
 ### Used languages and tools:
  - HTML
- - PHP
+ - PHP, OOP PHP
  - CSS
  - JavaScript
  - JQuery
