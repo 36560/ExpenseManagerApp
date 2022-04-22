@@ -1,6 +1,6 @@
 <?php
 
-    include('baseOperation.php');  
+    include('baseOperation.php');
     $object = new BaseOperation();  
 
     session_start();
@@ -15,7 +15,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Expense Manager App</title>       
+    <title>Expense Manager App</title>       
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script
         src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js"
@@ -23,10 +23,20 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
          <!-- Plots -->
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>                
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+                
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
-         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>                   
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>   
+        
+        
+
+
+                
         <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>    
         <link rel="stylesheet" href="style.css">    
 </head>
@@ -249,8 +259,6 @@
         var category = $('input[name="categoryBill"]:checked').val();
         var userId = <?php echo $currentUser ?>;
         var operation = "add";
-
-        console.log(userId);
 
         if(title && dateBill && category) 
         {
@@ -565,7 +573,7 @@
 
 <body onload="readBills(<?php echo $currentUser ?>, '0', 'displaydata'); createChart();">
 
-    <?php include('navbar.php'); ?>    
+    <?php include('navbar.php'); ?>
        
     <div style="background: url(https://images.pexels.com/photos/6192754/pexels-photo-6192754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)" id="bgImage" class="page-holder bg-cover">
 
@@ -616,7 +624,7 @@
 
             <select class="form-select bg-dark text-light" id="groupOption" aria-label="Default select example"  onchange="readBills(<?php echo $currentUser ?>, this.value, 'displaydata')">
             <option value ="0" selected>All</option>
-            <?php 
+            <?php
                 $query = "SELECT * FROM category";
                 $result = $object->executeQuery($query);
 
@@ -627,7 +635,7 @@
                         echo '<option value="'.$row["name"].'">'.$row["name"].'</option>';
                     }
                 }                         
-            ?>         
+            ?>
             </select>
                 <div id="displaydata">
                 </div>
