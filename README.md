@@ -48,7 +48,7 @@ User password is encrypted by default algorithm (bcrypt) in PHP 5.5.0.
 
 ![yearChart](https://user-images.githubusercontent.com/67658221/164232583-b4c38093-9a9b-4108-9159-11a4b4ef4be6.png)
 
-#### * Add new bill (expand form by click in nabar icon)
+#### * Add new bill (expand form by click in navbar icon)
 ![add](https://user-images.githubusercontent.com/67658221/164230616-8e5c1105-87f3-4f07-b72d-7dd52ec45c90.png)
 
 #### * Edit bill (by click on table row)
