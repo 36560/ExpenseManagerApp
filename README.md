@@ -2,7 +2,7 @@
 
 
 ## This web app is dedicated to managing your expenses/bills/incomes
-### Link to webpage: https://todowebjs.000webhostapp.com
+### Link to presented webpage: https://todowebjs.000webhostapp.com
 
 ---
 
