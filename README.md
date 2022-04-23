@@ -1,5 +1,5 @@
 # ExpenseManagerApp
-
+<img align="right" width="150" height="150" src="https://img.icons8.com/external-itim2101-flat-itim2101/344/external-bills-financial-itim2101-flat-itim2101.png">
 
 ## This web app is dedicated to managing your expenses/bills/incomes
 ### Link to presented webpage: https://todowebjs.000webhostapp.com
