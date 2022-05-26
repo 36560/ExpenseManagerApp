@@ -5,7 +5,6 @@
 ### Link to presented webpage: https://todowebjs.000webhostapp.com
 
 ---
-
 ### Used languages and tools:
  - HTML
  - PHP, OOP PHP
